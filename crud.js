@@ -39,7 +39,7 @@ module.exports = function (db, table) {
     'load' : function (attrs, next) {
       db.getConnection(function (conErr, connection) {
         if (conErr) { return next(conErr); }
-        connection.query(andEscape("SELECT * FROM " + table + (attrs.length === 0 ? "" : " WHERE ??"), attrs), function (err, rows) {
+        connection.query(andEscape("SELECT * FROM " + table + (Object.keys(attrs).length === 0 ? "" : " WHERE ??"), attrs), function (err, rows) {
           connection.end();
           next(err, rows);
         });
