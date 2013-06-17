@@ -16,7 +16,7 @@
     "mysql-crud",
     "crud"
   ],
-  "author": "Ryan Lee"
+  "author": "Ryan Lee",
   "license": "MIT",
   "readmeFilename": "README.md"
 }
