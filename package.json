@@ -6,17 +6,17 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/ryan-sandy/mysql-crud.git"
+    "url": "git://github.com/StephenCWan/mysql-crud.git"
   },
   "dependencies" : {
-    "mysql" : "x"
+    "mysql" : "*"
   },
   "keywords": [
     "mysql",
     "mysql-crud",
     "crud"
   ],
-  "author": "Ryan Lee",
+  "author": "Ryan Lee"
   "license": "MIT",
   "readmeFilename": "README.md"
 }
