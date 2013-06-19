@@ -32,7 +32,7 @@ var user-crud = CRUD(db, 'users');
 This function will perform the INSERT INTO query on the specified table. It will set the values equal to the first parameter and then call the callback. The callback is the standard mysql callback (err, and rows). 
 
 ```javascript
-user-curd.create({'id' : 1, 'username' : 'test', 'password' : '1234'}, function (err, vals) {
+user-crud.create({'id' : 1, 'username' : 'test', 'password' : '1234'}, function (err, vals) {
 	//mysql callback
 });
 ```
